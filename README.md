@@ -1,1 +1,1 @@
-rubiks_cube-bachelor-project
+rubiks-cube-bachelor-project
