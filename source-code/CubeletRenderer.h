@@ -16,6 +16,9 @@ public:
 
 private:
 
+	//Array of the side colors in RGB (Right, Down, Front, Left, Up, Back)
+	glm::vec3 m_colorArray[6] = {glm::vec3(1.f,0.f,0.f),glm::vec3(1.f,1.f,0.f),glm::vec3(0.f,1.f,0.f),glm::vec3(1.f,0.5f,0.f),glm::vec3(1.f,1.f,1.f),glm::vec3(0.f,0.f,1.f) };
+
 	const float m_offset = 0.5f;
 
 	void AddSidePosition(int sideType, int direction, std::vector<glm::vec3>& positionArray);

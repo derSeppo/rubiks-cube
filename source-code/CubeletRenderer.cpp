@@ -90,13 +90,12 @@ void CubeletRenderer::AddSidePosition(int sideType, int direction, std::vector<g
 
 void CubeletRenderer::AddSideColor(int sideType, int direction, std::vector<glm::vec3>& colorArray)
 {
-	glm::vec3 color = glm::vec3(0.0f);
-
-	float baseColor = (direction == -1) ? 0.5f : 1.0f;
-	color[sideType] = baseColor;
+	if(direction == -1) direction = 0;
+	
+	int index = sideType + direction * 3;
 
 	for (int i = 0; i < 6; i++)
-		colorArray.push_back(color);
+		colorArray.push_back(m_colorArray[index]);
 }
 
 void CubeletRenderer::TranscribeToFloatArray(std::vector<glm::vec3>& vecArray, float* floatArray)
