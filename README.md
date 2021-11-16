@@ -1,6 +1,6 @@
 # Rubiks Cube Uni-Project
 
-![rubiks cube](https://user-images.githubusercontent.com/16962284/138983617-85993a89-256c-4b4b-bb90-be63d5c1232e.png)
+![rubiks cube](https://user-images.githubusercontent.com/16962284/141873899-c32561ad-10ee-4eb6-901b-0b8d41ea8068.png)
 
 # Controls
 
